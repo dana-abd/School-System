@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>تحديد مادة لأستاذ</title>
+</head>
+<body>
+    <h2>تحديد مادة لأستاذ موجود</h2>
+    <form id="assignForm">
+        اسم الأستاذ: <input type="text" id="teacherName" required><br>
+        المادة الجديدة: <input type="text" id="newSubject" required><br>
+        <button type="submit">تعيين المادة</button>
+    </form>
+    <p id="assignResult"></p>
+
+    <script>
+        document.getElementById("assignForm").onsubmit = function(e) {
+            e.preventDefault();
+            let teacher = document.getElementById("teacherName").value;
+            let subject = document.getElementById("newSubject").value;
+            document.getElementById("assignResult").innerHTML = ✅ تم تحديد المادة "${subject}" للأستاذ "${teacher}";
+        };
+    </script>
+</body>
+vvvvv
+</html>
