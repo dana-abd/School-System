@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>تعديل بيانات أستاذ</title>
+</head>
+<body>
+    <h2>تعديل بيانات أستاذ</h2>
+    <form id="editForm">
+        البريد الحالي للأستاذ: <input type="email" id="oldEmail" required><br>
+        الاسم الجديد: <input type="text" id="newName"><br>
+        المادة الجديدة: <input type="text" id="newSubject"><br>
+        <button type="submit">تحديث البيانات</button>
+    </form>
+    <p id="editResult"></p>
+
+    <script>
+        document.getElementById("editForm").onsubmit = function(e) {
+            e.preventDefault();
+            let oldEmail = document.getElementById("oldEmail").value;
+            let newName = document.getElementById("newName").value;
+            let newSubject = document.getElementById("newSubject").value;
+            let msg = ✅ تم تحديث الأستاذ ذو البريد ${oldEmail}: ;
+            if(newName) msg +=  الاسم → ${newName};
+            if(newSubject) msg +=  المادة → ${newSubject};
+            document.getElementById("editResult").innerHTML = msg;
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>إضافة أستاذ جديد</title>
+</head>
+<body>
+    <h2>إضافة أستاذ جديد - قسم المعلمين</h2>
+    <form id="teacherForm">
+        الاسم: <input type="text" id="name" required><br>
+        البريد الإلكتروني: <input type="email" id="email" required><br>
+        المادة: <input type="text" id="subject" required><br>
+        <button type="submit">إضافة الأستاذ</button>
+    </form>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById("teacherForm").onsubmit = function(e) {
+            e.preventDefault();
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let subject = document.getElementById("subject").value;
+            document.getElementById("result").innerHTML = ✅ تم إضافة الأستاذ: ${name} - المادة: ${subject} (بريد: ${email});
+            // هنا يمكن رفع البيانات إلى قاعدة البيانات لاحقاً
+        };
+    </script>
+</body>
+</html>
