@@ -23,6 +23,7 @@
             if(newName) msg +=  الاسم → ${newName};
             if(newSubject) msg +=  المادة → ${newSubject};
             document.getElementById("editResult").innerHTML = msg;
+ccccc
         };...
     </script>
 </body>
