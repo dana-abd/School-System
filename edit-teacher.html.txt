@@ -24,6 +24,7 @@
             if(newSubject) msg +=  المادة → ${newSubject};
             document.getElementById("editResult").innerHTML = msg;
 ccccc
+edit teacher
         };...
     </script>
 </body>
