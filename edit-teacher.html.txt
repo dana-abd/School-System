@@ -8,6 +8,7 @@
     <form id="editForm">
         البريد الحالي للأستاذ: <input type="email" id="oldEmail" required><br>
         الاسم الجديد: <input type="text" id="newName"><br>
+
         المادة الجديدة: <input type="text" id="newSubject"><br>
         <button type="submit">تحديث البيانات</button>
     </form>
