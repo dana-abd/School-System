@@ -11,25 +11,37 @@ jobs:
 
       - name: Check required files exist
         run: |
-          test -f AddStudentData.cs || { echo "Missing AddStudentData.cs"; exit 1; }
-          test -f AddStudentForm.cs || { echo "Missing AddStudentForm.cs"; exit 1; }
+          if [ -f "Students/AddStudentData.cs" ]; then
+            echo "✅ AddStudentData.cs exists"
+          else
+            echo "❌ AddStudentData.cs missing"
+            exit 1
+          fi
+          
+          if [ -f "Students/AddStudentForm.cs" ]; then
+            echo "✅ AddStudentForm.cs exists"
+          else
+            echo "❌ AddStudentForm.cs missing"
+            exit 1
+          fi
+          
           echo "All required files exist ✅"
 
       - name: Run validation tests
         run: |
           echo "Running validation tests..."
           
-          if grep -q "class AddStudentData" AddStudentData.cs; then
+          if grep -q "class AddStudentData" Students/AddStudentData.cs; then
             echo "✅ Test 1 passed: AddStudentData class found"
           else
-            echo "❌ Test 1 failed: AddStudentData class not found"
+            echo "❌ Test 1 failed"
             exit 1
           fi
           
-          if grep -q "InitializeComponent" AddStudentForm.cs; then
+          if grep -q "InitializeComponent" Students/AddStudentForm.cs; then
             echo "✅ Test 2 passed: InitializeComponent found"
           else
-            echo "❌ Test 2 failed: InitializeComponent not found"
+            echo "❌ Test 2 failed"
             exit 1
           fi
           
