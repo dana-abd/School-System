@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>إضافة أستاذ جديد</title>
+
+add a teacher 
 </head>
 <body>
     <h2>إضافة أستاذ جديد - قسم المعلمين</h2>
