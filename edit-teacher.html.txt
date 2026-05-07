@@ -23,9 +23,12 @@
             if(newName) msg +=  الاسم → ${newName};
             if(newSubject) msg +=  المادة → ${newSubject};
             document.getElementById("editResult").innerHTML = msg;
+
+
+echo:<add a row>"
 ccccc
 edit teacher
         };...
     </script>
 </body>
-</html>
+</html>"< add a row -->"
