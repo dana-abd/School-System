@@ -1,0 +1,36 @@
+name: CI Test for Students Project
+
+on: push
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required files exist
+        run: |
+          test -f AddStudentData.cs || { echo "Missing AddStudentData.cs"; exit 1; }
+          test -f AddStudentForm.cs || { echo "Missing AddStudentForm.cs"; exit 1; }
+          echo "All required files exist ✅"
+
+      - name: Run validation tests
+        run: |
+          echo "Running validation tests..."
+          
+          if grep -q "class AddStudentData" AddStudentData.cs; then
+            echo "✅ Test 1 passed: AddStudentData class found"
+          else
+            echo "❌ Test 1 failed: AddStudentData class not found"
+            exit 1
+          fi
+          
+          if grep -q "InitializeComponent" AddStudentForm.cs; then
+            echo "✅ Test 2 passed: InitializeComponent found"
+          else
+            echo "❌ Test 2 failed: InitializeComponent not found"
+            exit 1
+          fi
+          
+          echo "All tests passed ✅"
