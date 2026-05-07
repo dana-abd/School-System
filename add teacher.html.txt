@@ -7,6 +7,8 @@ add a teacher
 </head>
 <body>
     <h2>إضافة أستاذ جديد - قسم المعلمين</h2>
+
+
     <form id="teacherForm">
         الاسم: <input type="text" id="name" required><br>
         البريد الإلكتروني: <input type="email" id="email" required><br>
