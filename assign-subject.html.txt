@@ -5,6 +5,10 @@
 </head>
 <body>
     <h2>تحديد مادة لأستاذ موجود</h2>
+
+
+
+
     <form id="assignForm">
         اسم الأستاذ: <input type="text" id="teacherName" required><br>
         المادة الجديدة: <input type="text" id="newSubject" required><br>
