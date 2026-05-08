@@ -1,0 +1,14 @@
+name: Test Edit Teacher
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: استنساخ الكود
+        uses: actions/checkout@v4
+      - name: إعداد Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: تشغيل اختبار تعديل الأستاذ
+        run: node test-edit-teacher.js
