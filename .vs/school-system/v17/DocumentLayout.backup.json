@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\school-system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\Desktop\\school-system\\subjects\\add subject||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:subjects\\add subject||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\Desktop\\school-system\\subjects\\AddSubjectData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:subjects\\AddSubjectData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\Desktop\\school-system\\subjects\\AddSubjectForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:subjects\\AddSubjectForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\Desktop\\school-system\\subjects\\AddSubjectForm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:subjects\\AddSubjectForm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\Desktop\\school-system\\Students\\AddStudentForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Students\\AddStudentForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\Desktop\\school-system\\Students\\AddStudentForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Students\\AddStudentForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\Desktop\\school-system\\Students\\AddStudentData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Students\\AddStudentData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddSubjectForm.designer.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\school-system\\subjects\\AddSubjectForm.designer.cs",
+              "RelativeDocumentMoniker": "subjects\\AddSubjectForm.designer.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\school-system\\subjects\\AddSubjectForm.designer.cs",
+              "RelativeToolTip": "subjects\\AddSubjectForm.designer.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAQwCIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T21:01:32.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddStudentForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\school-system\\Students\\AddStudentForm.Designer.cs",
+              "RelativeDocumentMoniker": "Students\\AddStudentForm.Designer.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\school-system\\Students\\AddStudentForm.Designer.cs",
+              "RelativeToolTip": "Students\\AddStudentForm.Designer.cs",
+              "ViewState": "AgIAAJMBAAAAAAAAAAAQwK0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:54:33.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddSubjectForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\school-system\\subjects\\AddSubjectForm.cs",
+              "RelativeDocumentMoniker": "subjects\\AddSubjectForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\school-system\\subjects\\AddSubjectForm.cs",
+              "RelativeToolTip": "subjects\\AddSubjectForm.cs",
+              "ViewState": "AgIAADEBAAAAAAAAAAAQwEsBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:52:58.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\school-system\\Students\\AddStudentForm.cs",
+              "RelativeDocumentMoniker": "Students\\AddStudentForm.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\school-system\\Students\\AddStudentForm.cs",
+              "RelativeToolTip": "Students\\AddStudentForm.cs",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAQwCsBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:48:31.062Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "add subject",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\school-system\\subjects\\add subject",
-              "RelativeDocumentMoniker": "subjects\\add subject",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\school-system\\subjects\\add subject",
-              "RelativeToolTip": "subjects\\add subject",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-07T18:09:30.738Z",
+              "Title": "AddSubjectData.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\school-system\\subjects\\AddSubjectData.cs",
+              "RelativeDocumentMoniker": "subjects\\AddSubjectData.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\school-system\\subjects\\AddSubjectData.cs",
+              "RelativeToolTip": "subjects\\AddSubjectData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:47:34.08Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddStudentData.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\school-system\\Students\\AddStudentData.cs",
+              "RelativeDocumentMoniker": "Students\\AddStudentData.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\school-system\\Students\\AddStudentData.cs",
+              "RelativeToolTip": "Students\\AddStudentData.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAQwHAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:43:04.418Z"
             }
           ]
         }
